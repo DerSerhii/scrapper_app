@@ -8,8 +8,8 @@ def main() -> None:
     max_page = controller.get_max_pagination(settings.URL_WITHOUT_PAGE)
     result = []
 
-    for number in range(1, 10 + 1):
-        print(f'Parsing page #{number} of {max_page}')
+    for number in range(1, max_page + 1):
+        print(f'Parsing page #{number} of {max_page}', end=('.'*5))
         page_url = f'{settings.URL_TO_PAGE}page-{number}/{settings.URL_PAST_PAGE}'
         result += controller.get_page_data(page_url)
 

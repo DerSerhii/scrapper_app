@@ -92,6 +92,7 @@ def get_page_data(page_url: str) -> list[dict[str, Any]]:
     """Return a list of data dictionaries for the given page."""
 
     request = requests.get(page_url)
+    print(f'Request: {request.status_code}')
     soup = BeautifulSoup(request.content, 'lxml')
 
     table = soup.find('main')
