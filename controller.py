@@ -91,7 +91,7 @@ def get_max_pagination(page_url: str) -> int:
 def get_page_data(page_url: str) -> list[dict[str, Any]]:
     """Return a list of data dictionaries for the given page."""
 
-    request = requests.get(page_url)
+    request = requests.get(page_url, headers=settings.HEADERS)
     print(f'Request: {request.status_code}')
     soup = BeautifulSoup(request.content, 'lxml')
 
