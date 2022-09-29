@@ -23,5 +23,5 @@ An installed **PostgreSQL** is required for operation.
 
 Settings file: `settings.py`
 
-Database can be created by running the file: `db_create.py` in packadge `utils`
+Database can be created by running the file: `db_create.py` in packadge `utils` <br>
 Teable can be created by running the file: `models.py`
