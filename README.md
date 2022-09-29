@@ -1,4 +1,4 @@
-# SCRAPPER APP
+# SCRAPING APP
 
 This is a test application that collects the necessary data from the pages of the website [www.kijiji.ca](https://www.kijiji.ca/b-apartments-condos/city-of-toronto/c37l1700273?ad=offering), including pagination.
 
