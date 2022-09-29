@@ -1,11 +1,23 @@
-# scrapper_app
+# SCRAPPER APP
 
-This application collect all ads, pagination includes 
-from website: [www.kijiji.ca](https://www.kijiji.ca/b-apartments-condos/city-of-toronto/c37l1700273?ad=offering)
+This is a test application that collects the necessary data from the pages of the website [www.kijiji.ca](https://www.kijiji.ca/b-apartments-condos/city-of-toronto/c37l1700273?ad=offering), including pagination.
 
 ---
 
-Application launch file: `main.py`
+## Getting started
+
+Download the code base on your local machine. You may prefer to use virtual environment to separate the project's dependencies from other packages you have installed.
+
+To install dependencies use `pip`:
+```
+pip install -r requirements.txt
+```
+To run the app do
+```
+python main.py
+```
+
+## Database
 
 An installed **PostgreSQL** is required for operation.
 
